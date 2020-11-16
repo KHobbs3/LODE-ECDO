@@ -15,7 +15,8 @@
           "name": "Program Name",
           "source_facility_type": "Type of program",
           "source_id": "Pseudo ProgramID",
-          "capacity": "Capacity"
+          "capacity": "Capacity",
+          "facility_type": "facility_type"
       },
       "address" : {
           "city": "Program City",

@@ -1,8 +1,8 @@
 {
-  "localfile": "NU-childcare.csv",
+  "localfile": "PE-childcare.csv",
   "schema_groups": ["childcare", "address", "geocoordinates"],
-  "source": "http://gov.nu.ca/education/information/contacts-0",
-  "provider": "Nunavut",
+  "source": "https://peichildcareregistry.com/search.php",
+  "provider": "Province of Prince Edward Island",
   "encoding": "utf-8",
   "format": {
       "type": "csv",
@@ -11,14 +11,14 @@
   },
   "schema": {
       "childcare" : {
-          "name": "Facility/Program",
+          "name": "Name",
+          "ages": "Centre Accepts",
           "infant": "infant",
           "toddler": "toddler",
           "school_age": "school_age"
       },
       "address" : {
-          "full_address": "Address",
-          "postal_code": "Postal Code"
+          "full_address": "Address"
       }
   }
 }

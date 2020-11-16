@@ -3,7 +3,7 @@
   "schema_groups": ["childcare", "address", "geocoordinates"],
   "source": "https://yukon.ca/en/child-care-information-yukoners",
   "licence": "https://yukon.ca/en/copyright",
-  "provider": "Yukon Territories",
+  "provider": "Yukon Territory",
   "encoding": "utf-8",
   "format": {
       "type": "csv",
@@ -13,7 +13,11 @@
   "schema": {
       "childcare" : {
           "name": "name",
-          "ages": "age"
+          "ages": "age",
+          "capacity": "license",
+          "infant": "infant",
+          "toddler": "toddler",
+          "school_age": "school_age"
       },
       "address" : {
           "full_address": "address"

@@ -1,5 +1,5 @@
 {
-  "localfile": "BC-childcare_locations.csv",
+  "localfile": "BC-childcare.csv",
   "schema_groups": ["childcare", "address", "geocoordinates"],
   "source": "https://catalogue.data.gov.bc.ca/dataset/child-care-map-data#",
   "licence": "https://www2.gov.bc.ca/gov/content/data/open-data/open-government-licence-bc",
@@ -13,7 +13,11 @@
   "schema": {
       "childcare" : {
           "name": "NAME",
-          "source_id": "FAC_PARTY_ID"
+          "source_id": "FAC_PARTY_ID",
+          "licence_status": "SRVC_LICPRE_YN",
+          "infant": "SRVC_UNDER36_YN",
+          "toddler": "toddler",
+          "school_age": "SRVC_OOS_GR1_AGE12_YN"
       },
       "address" : {
           "city": "CITY",

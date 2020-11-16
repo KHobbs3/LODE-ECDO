@@ -16,7 +16,11 @@
           "source_facility_type": "Type of Facility",
           "source_id": "Facility Number",
           "capacity": "Total Child Care Spaces",
-          "ages": "Age Type"
+          "ages": "Age Type",
+          "infant": "infant",
+          "toddler": "toddler",
+          "school_age": "school_age",
+          "facility_type": "facility_type"
       },
       "address" : {
           "full_address": "Address"

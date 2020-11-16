@@ -12,7 +12,12 @@
   },
   "schema": {
       "childcare" : {
-          "name": "facility_name"
+          "name": "facility_name",
+          "source_facility_type": "details",
+          "infant": "infant",
+          "toddler": "toddler",
+          "school_age": "school_age",
+          "facility_type": "facility_type"
       },
       "address" : {
           "full_address": "full_address"

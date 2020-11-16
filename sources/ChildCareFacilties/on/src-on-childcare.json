@@ -13,7 +13,8 @@
   "schema": {
       "childcare" : {
           "name": "Child Care Center Name",
-          "source_facility_type": "Program Type Desc"
+          "source_facility_type": "Program Type Desc",
+          "licence_status": "Licence Status"
       },
       "address" : {
           "street_number": "Street Number",
